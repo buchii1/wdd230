@@ -1,9 +1,12 @@
 @media (min-width: 32.5em) {
+    body {
+      margin: 20px auto;
+    }
+
     header {
       align-items: center;
       gap: 15px;
       flex-direction: row;
-      margin-top: 25px;
     }
 
     h1 {
