@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+h1, 
+h2,
+h3 {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #011627;
+    font-family: "Roboto", sans-serif;
+    margin: 0 auto;
+    max-width: 1000px;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 5px;
+    background-color: #ff9f1c;
+    /* margin-top: 50px; */
+    padding: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+header img {
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: #000;
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+p {
+    margin: 10px auto;
+}
+
+nav {
+    background-color: #2ec4b6;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.nav-ul li a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-ul li a:hover {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.active {
+    background-color: #fff;
+}
+
+main {
+    display: block;
+    margin: 0 auto;
+    max-width: 350px;
+    margin-bottom: 20px;
+}
+
+main h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.hr {
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    background-color: #011627;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 0 10px rgba(255, 255, 255, 0.2);
+    margin-bottom: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.card h3 {
+    background-color: #2ec4b6;
+    padding: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #000;
+}
+
+.card ul {
+    padding: 10px 20px;
+}
+
+.card ul li {
+    margin-bottom: 10px;
+}
+
+.card ul li a {
+    color: #fff;
+}
+
+.card div {
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #ff9f1c;
+    color: #000; 
+    text-align: center;
+    padding: 10px;  
+    border-radius: 5px;
+}
+
+.footer-text {
+    display: block;
+    position: relative;
+}
+
+.footer-text img {
+    position: absolute;
+    top: -5px;
+    margin-left: 4px;
+}
