@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #011627;
+	font-family: "Roboto", sans-serif;
+	margin: 0 auto;
+	max-width: 1000px;
+	color: #fff;
+	line-height: 1.5;
+}
+
+header {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	gap: 5px;
+	background-color: #ff9f1c;
+	padding: 20px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+header img {
+	border-radius: 5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Space Grotesk", sans-serif;
+}
+
+h1 {
+	text-align: center;
+	color: #000;
+	font-size: 1.5rem;
+}
+
+h2 {
+	font-size: 1.2rem;
+}
+
+p {
+	margin: 10px auto;
+}
+
+nav {
+	background-color: #2ec4b6;
+	margin-bottom: 20px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+.nav-ul li a {
+	display: block;
+	text-align: center;
+	padding: 10px;
+	color: #000;
+}
+
+a {
+	text-decoration: none;
+}
+
+.nav-ul li a:hover {
+	padding: 10px;
+	background-color: #fff;
+}
+
+.active {
+	background-color: #fff;
+}
+
+.scenarios li {
+	list-style-type: circle;
+	padding-bottom: 5px;
+}
+
+.scenarios {
+	padding: 10px 30px;
+}
+
+.audience {
+	margin: 50px auto;
+	max-width: 350px;
+	border-radius: 5px;
+	padding: 20px 30px;
+	background-color: #011627;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.audience__h3 {
+	margin-top: 20px;
+}
+
+main h2 {
+	text-align: center;
+}
+
+.hr {
+	margin-bottom: 2rem;
+}
+
+hr {
+	margin-bottom: 1rem;
+}
+
+table,
+tr,
+th,
+td {
+	border: 1px solid #fff;
+	text-align: center;
+}
+
+table {
+	width: 100%;
+}
+
+th,
+td {
+	padding: 10px;
+}
+
+.color__text {
+	background-color: #fff;
+	color: #000;
+}
+
+.color__header {
+	background-color: #ff9f1c;
+	color: #000;
+}
+
+.wireframe__img {
+	width: 100%;
+}
+
+footer {
+	background-color: #ff9f1c;
+	color: #000;
+	text-align: center;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.footer-text {
+	display: block;
+	position: relative;
+}
+
+.footer-text img {
+	position: absolute;
+	top: -5px;
+	margin-left: 4px;
+}

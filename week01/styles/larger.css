@@ -1,0 +1,39 @@
+@media (min-width: 32.5em) {
+	body {
+		margin: 20px auto;
+	}
+
+	header {
+		align-items: center;
+		gap: 15px;
+		flex-direction: row;
+	}
+
+	h1 {
+		font-size: 2.3rem;
+	}
+
+	h2 {
+		font-size: 1.8rem;
+	}
+
+	.nav-ul {
+		display: flex;
+	}
+
+	.nav-ul li {
+		flex: 1 1 100%;
+	}
+
+	.audience {
+		max-width: 900px;
+	}
+
+	table {
+		width: 50%;
+	}
+
+	.footer-text {
+		display: inline-block;
+	}
+}
