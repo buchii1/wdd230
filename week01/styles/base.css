@@ -101,10 +101,6 @@ a {
 	display: block;
 }
 
-.open li a {
-	display: block;
-}
-
 .active {
 	background-color: #fff;
 }
