@@ -17,11 +17,16 @@
 		font-size: 1.8rem;
 	}
 
+	#menu {
+		display: none;
+	}
+
 	.nav-ul {
 		display: flex;
 	}
 
 	.nav-ul li {
+		display: block;
 		flex: 1 1 100%;
 	}
 
