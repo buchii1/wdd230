@@ -60,15 +60,7 @@ p {
 	font-size: 2rem;
 	font-weight: bold;
 	background-color: #011627;
-}
-
-#menu::before {
-	content: "☰";
 	color: #fff;
-}
-
-#menu.open::before {
-	content: "✖";
 }
 
 nav {
