@@ -1,0 +1,44 @@
+@media (min-width: 32.5em) {
+	a {
+		color: #000;
+	}
+
+	header {
+		display: flex;
+		align-items: center;
+	}
+
+	#menu {
+		display: none;
+	}
+
+	nav {
+		display: block;
+        padding-left: 3.5rem;
+		margin: 0;
+		width: 100%;
+		background-color: transparent;
+		position: relative;
+	}
+
+	.nav-ul {
+		display: flex;
+		align-items: center;
+		margin: 0;
+	}
+
+	.nav-ul li {
+		flex: 1 1 100%;
+	}
+
+	.nav-ul li a {
+		width: 100%;
+	}
+
+	.nav-ul li a:hover,
+	.active {
+		background-color: hsl(235, 66%, 25%);
+		color: rgb(255, 255, 255);
+		font-weight: 700;
+	}
+}
