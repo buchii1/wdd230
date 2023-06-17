@@ -30,6 +30,11 @@
 		flex: 1 1 100%;
 	}
 
+	.dark-theme {
+		position: relative;
+	}
+
+
 	main {
 		display: grid;
 		grid-template-columns: 2fr 1fr;
