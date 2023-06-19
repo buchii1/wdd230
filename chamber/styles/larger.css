@@ -124,4 +124,31 @@
 	#spot-grid {
 		grid-template-columns: repeat(3, 1fr);
 	}
+
+	#lastModified {
+		display: initial;
+	}
+
+	.hidden {
+		display: initial;
+	}
+
+	#footer-grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	#footer-grid p {
+		grid-column: 1 / 4;
+	}
+
+	#footer-links {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	#footer-links a {
+		color: #fff;
+	}
 }

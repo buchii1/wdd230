@@ -26,7 +26,7 @@
     <header>
         <div class="logo">
             <a href="/">
-                <img src="images/favicon.png" alt="site icon">
+                <img src="images/favicon.png" alt="site-logo">
             </a>
             <h1 class="header-text">Awka Chamber <span>of Commerce</span></h1>
             <button id="menu">☰</button>
@@ -53,7 +53,7 @@
     </section>
     <main>
         <div id="main-grid">
-            <section class="cards events">
+            <section class="cards">
                 <div class="cards-head">
                     <h3>Events</h3>
                 </div>
@@ -61,7 +61,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
             </section>
-            <section class="cards weather">
+            <section class="cards">
                 <div class="cards-head">
                     <h3>Weather</h3>
                 </div>
@@ -72,7 +72,7 @@
         </div>
         <h2>Member Spotlights</h2>
         <div id="spot-grid">
-            <section class="cards spot-1">
+            <section class="cards">
                 <div class="cards-head">
                     <h3>Spotlight 1</h3>
                 </div>
@@ -80,9 +80,17 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
             </section>
-            <section class="cards spot-2">
+            <section class="cards">
                 <div class="cards-head">
                     <h3>Spotlight 2</h3>
+                </div>
+                <div class="cards-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </section>
+            <section class="cards">
+                <div class="cards-head">
+                    <h3>Spotlight 3</h3>
                 </div>
                 <div class="cards-body">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -91,7 +99,33 @@
         </div>
     </main>
     <footer>
-
+        <div id="footer-grid">
+            <div id="footer-logo">
+                <img src="./images/favicon.png" alt="site-logo" class="footer-img">
+                <div class="footer-address">
+                    <p>... advancing the goals and interests of local businesses.</p>
+                    <address>No. 14 Zik Avenue, Amawbia, Awka</address>
+                </div>
+            </div>
+            <div id="footer-links">
+                <p>Okonkwo O. Godspower</p>
+                <p>+(234) 813-5683-541</p>
+                <a href="mailto:hello@awka-chamber.com">hello@awka-chamber.com</a>
+                <p>📍 Location Map</p>
+            </div>
+            <div id="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!4v1687209232088!6m8!1m7!1saEnnyfD_W7msyqX7xy4tIQ!2m2!1d6.207853355099687!2d7.042608515938644!3f130.81625363277143!4f-12.841365411402194!5f0.7820865974627469"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <p>WDD 230 - Web Frontend Development Project</p>
+        </div>
+        <div id="footer-copy">
+            <small>&copy;<span id="year"></span> Awka Chamber. All rights reserved. <span class="hidden">|</span>
+                <span id="lastModified"></span>
+            </small>
+        </div>
     </footer>
     <script src="scripts/script.js"></script>
 </body>
