@@ -26,10 +26,6 @@ a {
 	text-decoration: none;
 }
 
-p {
-	margin-bottom: 10px;
-}
-
 header {
 	position: relative;
 	padding: 0 10px;
@@ -130,9 +126,8 @@ nav {
 	padding: 20px;
 }
 
-#hero-msg p,
-#cta {
-	padding-bottom: 10px;
+#hero-msg p {
+	padding-bottom: 20px;
 }
 
 #cta-container {
@@ -143,7 +138,7 @@ nav {
 	margin-top: 0;
 }
 
-#hero-msg h2 {
+h2 {
 	font-size: 1.5rem;
 }
 
@@ -162,5 +157,24 @@ nav {
 }
 
 main {
-	line-height: 1.5;
+	margin: 40px auto;
+	max-width: 350px;
+}
+
+.cards {
+	box-shadow: 0 0 5px 5px rgba(220, 220, 220, 0.6);
+	margin-bottom: 20px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	overflow: hidden;
+}
+
+.cards-head {
+	background-color: hsl(235, 66%, 25%);
+	color: #fff;
+	padding: 10px 10px 1px;
+}
+
+.cards-body {
+	padding: 10px 10px;
 }

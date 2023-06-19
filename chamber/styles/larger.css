@@ -99,4 +99,29 @@
 		border: 2px solid #f1f1f1;
 		color: #fff;
 	}
+
+	main {
+		max-width: 1200px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	main h2 {
+		display: none;
+	}
+
+	#main-grid,
+	#spot-grid {
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+		column-gap: 10px;
+	}
+
+	#main-grid {
+		grid-template-columns: 2fr 1fr;
+	}
+
+	#spot-grid {
+		grid-template-columns: repeat(3, 1fr);
+	}
 }
