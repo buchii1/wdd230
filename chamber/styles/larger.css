@@ -71,8 +71,8 @@
 		width: 68%;
 	}
 
-	#hero-msg h1 {
-		font-size: 3rem;
+	#hero-msg h2 {
+		font-size: 2rem;
 	}
 
 	#cta-container {
@@ -88,6 +88,7 @@
 	#cta-button:hover {
 		border-radius: 5px;
 		background-color: hsl(235, 66%, 25%);
+		border: 2px solid #f1f1f1;
 		color: #fff;
 	}
 
