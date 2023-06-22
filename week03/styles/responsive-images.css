@@ -1,0 +1,14 @@
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    text-align: center;
+    text-decoration: overline underline hsl(235, 66%, 25%);
+}
+
+footer {
+    margin-top: 10px;
+    text-align: center;
+}
