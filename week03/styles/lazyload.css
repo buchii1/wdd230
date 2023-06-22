@@ -15,9 +15,9 @@ main {
     gap: 30px;
 }
 
-img {
-    /* width: 100%;
-    height: auto; */
+picture img {
+    width: 100%;
+    height: auto;
     border-radius: 5px;
     opacity: 0;
     animation: fadeIn 2s ease-in-out forwards;
