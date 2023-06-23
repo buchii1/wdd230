@@ -27,8 +27,9 @@ header {
 	border-top-right-radius: 5px;
 }
 
-header img {
+header img:first-child {
 	border-radius: 5px;
+	height: auto;
 }
 
 h1,
