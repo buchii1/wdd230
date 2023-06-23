@@ -22,7 +22,7 @@
 <body>
     <header>
         <a href="/">
-            <img src="images/buchii.jpg" alt="buchii" width="200" height="150">
+            <img src="images/buchii.webp" alt="buchii" width="200" height="150">
         </a>
         <h1>Okonkwo Godspower Onyebuchi</h1>
         <img src="images/dark-theme.svg" alt="dark-theme" class="dark-theme" width="40" height="40">
@@ -36,6 +36,15 @@
             <li><a href="#">Form</a></li>
         </ul>
     </nav>
+    <div class="hero">
+        <div class="hero-label">
+            <p>Aba Nigeria Temple</p>
+        </div>
+        <picture>
+            <source media="(max-width: 400px)" srcset="./images/hero-small.webp">
+            <img src="./images/hero-medium.webp" alt="Exterior view of the Aba Nigeria Temple" width="900" height="563">
+        </picture>
+    </div>
     <main>
         <div>
             <h2>WDD 230: Web Frontend Development</h2>
@@ -50,10 +59,10 @@
                     <a href="https://codepen.io/Godspower-Okonkwo/pen/mdQVooN"> Hamburger</a> |
                     <a href="./week02/bom.html">DOM</a>
                 </li>
-                <li>Week 03: 
+                <li>Week 03:
                     <a href="./week03/images/landscape.webp">WebP</a> |
-                    <a href="./week03/lazyload.html">LazyLoad</a> |
-                    <a href="./week03/responsive-images.html">ResponsiveImg</a> |
+                    <a href="./week03/lazyload.html">Lazy</a> |
+                    <a href="./week03/responsive-images.html">Srcset</a> |
                     <a href="./week03/bom.html">WebStorage</a>
                 </li>
                 <li>Week 04: <a href="#">Placeholder</a></li>
@@ -64,9 +73,17 @@
         </section>
         <section class="card">
             <h3>Information</h3>
-            <div>Placeholder</div>
-            <div>Placeholder</div>
-            <div>Placeholder</div>
+            <div>
+                <p>Visit Count: <span class="tot-visit"></span></p>
+                <p>Placeholder</p>
+                <p>Placeholder</p>
+            </div>
+        </section>
+        <section id="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!4v1687209232088!6m8!1m7!1saEnnyfD_W7msyqX7xy4tIQ!2m2!1d6.207853355099687!2d7.042608515938644!3f130.81625363277143!4f-12.841365411402194!5f0.7820865974627469"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>
     <footer>
@@ -79,7 +96,7 @@
         <p id="lastModified"></p>
     </footer>
 
-    <script src="scripts/getDates.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>

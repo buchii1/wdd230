@@ -46,6 +46,15 @@
 		grid-column: 1 / span 2;
 	}
 
+	.card {
+		margin-bottom: 20px;
+	}
+
+	#map {
+		margin-top: 20px;
+		grid-column: 1 / span 2;
+	}
+
 	.footer-text {
 		display: inline-block;
 	}
