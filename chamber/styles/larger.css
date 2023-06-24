@@ -93,13 +93,6 @@
 		font-weight: 700;
 	}
 
-	#cta-button:hover {
-		border-radius: 5px;
-		background-color: hsl(235, 66%, 25%);
-		border: 2px solid #f1f1f1;
-		color: #fff;
-	}
-
 	main {
 		max-width: 1200px;
 		padding-left: 10px;

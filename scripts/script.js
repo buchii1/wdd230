@@ -32,7 +32,7 @@ mobileMenu();
 function toggleDarkMode() {
 	const darkTheme = document.querySelector(".dark-theme");
 	const body = document.querySelector("body");
-	const header2 = document.querySelector("h2");
+	const header2 = document.querySelector("main h2");
 
 	function toggleDarkTheme() {
 		body.classList.toggle("light-theme");

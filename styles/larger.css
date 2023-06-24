@@ -55,6 +55,6 @@
 	}
 
 	.footer-text {
-		display: inline-block;
+		display: initial;
 	}
 }
