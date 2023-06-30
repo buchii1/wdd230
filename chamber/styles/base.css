@@ -185,7 +185,7 @@ main {
 	margin-top: 20px;
 	background-color: hsl(235, 66%, 25%);
 	color: #fff;
-	font-size: .9rem;
+	font-size: 0.9rem;
 }
 
 #footer-grid p {
@@ -224,6 +224,12 @@ footer p {
 #map {
 	margin: 20px auto;
 	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#map iframe {
+	width: 100%;
 }
 
 #footer-copy {
@@ -237,4 +243,42 @@ footer p {
 
 .hidden {
 	display: none;
+}
+
+/* DISCOVER PAGE */
+.upcoming {
+	padding-left: 15px;
+}
+
+.cards-body.first {
+	font-size: 0.9rem;
+}
+
+.first hr {
+	margin-bottom: 0.5rem;
+}
+
+.calendar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.calendar iframe {
+	width: 100%;
+}
+
+#mainbar-grid .cards,
+#sidebar-grid .cards {
+	margin-bottom: 40px;
+}
+
+figcaption {
+	padding: 0.4rem 0;
+	text-align: center;
+}
+
+figure img {
+	width: 100%;
+	height: auto;
 }

@@ -143,4 +143,41 @@
 	#footer-links a {
 		color: #fff;
 	}
+
+	/* DISCOVER PAGE */
+	.upcoming {
+		padding-left: 25px;
+	}
+
+	main#discover {
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+		column-gap: 40px;
+	}
+
+	#sidebar-grid {
+		background-color: #f6fafd;
+		height: 100vh;
+		overflow-y: auto;
+	}
+
+	#sidebar-grid .cards {
+		box-shadow: 0 0 5px 5px rgba(220, 220, 220, 0.6);
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 350px;
+	}
+
+	.cards-body.first {
+		font-size: initial;
+	}
+
+	figure img {
+		transition: transform 0.5s;
+	}
+
+	figure img:hover {
+		opacity: 0.6;
+		transform: scale(0.9);
+	}
 }
