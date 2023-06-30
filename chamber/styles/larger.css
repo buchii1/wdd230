@@ -145,6 +145,10 @@
 	}
 
 	/* DISCOVER PAGE */
+	.show {
+		display: none;
+	}
+
 	.upcoming {
 		padding-left: 25px;
 	}

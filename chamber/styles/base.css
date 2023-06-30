@@ -254,7 +254,12 @@ footer p {
 	font-size: 0.9rem;
 }
 
+.first h4 {
+	margin-bottom: 1rem;
+}
+
 .first hr {
+	margin-top: -1rem;
 	margin-bottom: 0.5rem;
 }
 
@@ -266,6 +271,11 @@ footer p {
 
 .calendar iframe {
 	width: 100%;
+}
+
+#discover h2 {
+	text-align: center;
+	padding-bottom: 5px;
 }
 
 #mainbar-grid .cards,
