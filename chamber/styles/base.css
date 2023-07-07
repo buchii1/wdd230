@@ -360,6 +360,6 @@ form label.form-top input:required:valid {
 	border-left: green solid 6px;
 }
 
-.join-grid {
+.join-grid .cards {
 	background-color: #f6fafd;
 }
