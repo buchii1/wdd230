@@ -41,16 +41,16 @@
         <form method="get" action="/record.html">
             <fieldset>
                 <legend>User Information</legend>
-                <label for="uname" class="form-top">Username <input type="text" name="uname" id="uname"
+                <label for="uname" class="form-top">Username* <input type="text" name="uname" id="uname"
                         required></label>
-                <label for="password" class="form-top">Password <input type="password" name="password" id="password"
+                <label for="password" class="form-top">Password* <input type="password" name="password" id="password"
                         pattern="[A-Za-z0-9]{8,}" title="Please enter at least 8 alphanumeric characters" required>
                 </label>
-                <label for="password1" class="form-top">Re-enter Password <input type="password" name="password1"
+                <label for="password1" class="form-top">Re-enter Password* <input type="password" name="password1"
                         id="password1" pattern="[A-Za-z0-9]{8,}" title="Please re-enter your password" required>
                 </label>
                 <small id="passMessage"></small>
-                <label for="email" class="form-top">Email <input type="email" name="email" placeholder="hello@byui.edu"
+                <label for="email" class="form-top">Email* <input type="email" name="email" placeholder="hello@byui.edu"
                         pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" id="email"
                         title="Please enter a valid email address from the byui.edu domain" required>
                 </label>
