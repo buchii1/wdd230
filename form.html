@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Okonkwo Godspower Onyebuchi - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development | Okonkwo Godspower Onyebuchi - course assignment portal | 
+        A collection of the WDD 230 projects.">
+    <meta name="author" content="Okonkwo Godspower Onyebuchi">
+    <meta property="og:title" content="Okonkwo Godspower Onyebuchi - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://bit.ly/3Nbrb8D">
+    <meta property="og:url" content="https://buchii1.github.io/wdd230/">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+
+<body>
+    <header>
+        <a href="/">
+            <img src="images/buchii.webp" alt="buchii" width="200" height="150">
+        </a>
+        <h1>Okonkwo Godspower Onyebuchi</h1>
+        <img src="images/dark-theme.svg" alt="dark-theme" class="dark-theme" width="40" height="40">
+    </header>
+    <nav>
+        <button id="menu">☰</button>
+        <ul class="nav-ul">
+            <li><a href="/" class="active">Home</a></li>
+            <li><a href="./chamber/index.html">Chamber</a></li>
+            <li><a href="./week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="">Form</a></li>
+        </ul>
+    </nav>
+    <main class="form">
+        <form method="get" action="/record.html">
+            <fieldset>
+                <legend>User Information</legend>
+                <label for="uname" class="form-top">Username <input type="text" name="uname" id="uname"
+                        required></label>
+                <label for="password" class="form-top">Password <input type="password" name="password" id="password"
+                        pattern="[A-Za-z0-9]{8,}" title="Please enter at least 8 alphanumeric characters" required>
+                </label>
+                <label for="password1" class="form-top">Re-enter Password <input type="password" name="password1"
+                        id="password1" pattern="[A-Za-z0-9]{8,}" title="Please re-enter your password" required>
+                </label>
+                <small id="passMessage"></small>
+                <label for="email" class="form-top">Email <input type="email" name="email" placeholder="hello@byui.edu"
+                        pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+                        title="Please enter a valid email address from the byui.edu domain" required>
+                </label>
+                <small id="emailMessage"></small>
+                <label for="range" class="form-top">Page Rating: <span id="rangevalue">1</span> <input type="range"
+                        id="range" name="range" min="1" max="10" value="1" step="1" list="rangevalues"></label>
+                <datalist id="rangevalues">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+            </fieldset>
+
+            <input type="submit" value="Process User Data" class="submitBtn">
+        </form>
+    </main>
+    <footer>
+        <p>&copy;<span id="year"></span>
+            <span class="footer-text">❤ Okonkwo Godspower 🤍</span>
+            <span class="footer-text">Nigeria
+                <img src="images/ng-flag.webp" alt="Nigerian-flag" width="30" height="30">
+            </span>
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/formValidation.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
