@@ -42,28 +42,6 @@
 		max-width: 900px;
 	}
 
-	main.form{
-		margin: 0 auto;
-		max-width: 900px;
-		display: block;
-	}
-
-	#rangevalues {
-		gap: 0;
-	}
-
-	/* label {
-		margin: 0 auto;
-		width: 50%;
-	}
-
-	legend {
-		display: none;
-	}
-	form fieldset {
-		border: none;
-	} */
-
 	main div {
 		grid-column: 1 / span 2;
 	}
