@@ -153,7 +153,8 @@
 		padding-left: 25px;
 	}
 
-	main#discover {
+	main#discover,
+	main#join {
 		display: grid;
 		grid-template-columns: 1fr 2fr;
 		column-gap: 40px;
@@ -183,5 +184,13 @@
 	figure img:hover {
 		opacity: 0.6;
 		transform: scale(0.9);
+	}
+
+	form fieldset:first-child {
+		margin: 0;
+	}
+
+	#thanks h2 {
+		display: block;
 	}
 }

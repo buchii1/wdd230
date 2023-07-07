@@ -245,7 +245,7 @@ footer p {
 	display: none;
 }
 
-/* DISCOVER PAGE */
+/*----------- DISCOVER PAGE ------------*/
 .upcoming {
 	padding-left: 15px;
 }
@@ -291,4 +291,75 @@ figcaption {
 figure img {
 	width: 100%;
 	height: auto;
+}
+
+/*----------- JOIN -----------*/
+form fieldset {
+	margin: 2rem 0;
+	border: 1px solid hsl(235, 66%, 25%);
+	border-radius: 10px;
+	padding: 0.5rem 2%;
+}
+
+form legend {
+	color: hsl(235, 66%, 25%);
+	margin: 0 1rem;
+	padding: 0 0.5rem;
+}
+
+form label.form-top,
+form div {
+	display: block;
+	padding-top: 1rem;
+	color: #000;
+	font-size: 0.8rem;
+}
+
+form label.form-top input,
+textarea {
+	-webkit-appearance: none;
+	display: block;
+	font-size: 1rem;
+	border: solid 1px #999;
+	border-radius: 4px;
+	padding: 0.75rem;
+	color: #555;
+	width: 100%;
+	margin-bottom: 0.75rem;
+	max-width: 20rem;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.form-middle {
+	display: flex;
+	align-items: center;
+	padding: 0.75rem 0;
+	color: #555;
+}
+
+form label.form-middle input[type="radio"] {
+	margin-right: 0.5rem;
+}
+
+form input.submitBtn {
+	border: none;
+	background-color: #9c2c13;
+	color: #fff;
+	border-radius: 1rem;
+	padding: 0.75rem 1.5rem;
+	margin: 0 0 2rem 2%;
+	width: 96%;
+	max-width: 20rem;
+}
+
+form label.form-top input:required {
+	border-left: red solid 6px;
+}
+
+form label.form-top input:required:valid {
+	border-left: green solid 6px;
+}
+
+.join-grid {
+	background-color: #f6fafd;
 }
