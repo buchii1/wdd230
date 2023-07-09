@@ -1,0 +1,28 @@
+{
+	"familyName": "Doe",
+	"dateMoved": "15th June, 2022",
+	"numInFamily": 8,
+	"visitedByBishopric": false,
+	"familyMembers": [
+		{
+			"name": "Joy",
+			"gender": "Female",
+			"birthDate": "10th October, 2004"
+		},
+		{
+			"name": "Brian",
+			"gender": "Male",
+			"birthDate": "5th Feb, 2006"
+		},
+		{
+			"name": "Zara",
+			"gender": "Female",
+			"birthDate": "16th July, 2008"
+		},
+		{
+			"name": "Treasure",
+			"gender": "Male",
+			"birthDate": "3rd March, 2011"
+		}
+	]
+}
