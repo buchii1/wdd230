@@ -1,0 +1,93 @@
+{
+	"weeks": [
+		{
+			"week": "Week 1",
+			"links": [
+				{
+					"url": "#",
+					"title": "Placholder"
+				}
+			]
+		},
+		{
+			"week": "Week 2",
+			"links": [
+				{
+					"url": "./week02/design.html",
+					"title": "Design"
+				},
+				{
+					"url": "https://codepen.io/Godspower-Okonkwo/pen/mdQVooN",
+					"title": "Menu"
+				},
+				{
+					"url": "./week02/bom.html",
+					"title": "BOM-25"
+				}
+			]
+		},
+		{
+			"week": "Week 3",
+			"links": [
+				{
+					"url": "./week03/images/landscape.webp",
+					"title": "WebP"
+				},
+                {
+                    "url": "./week03/lazyload.html",
+                    "title": "Lazy"
+                },
+                {
+                    "url": "./week03/responsive-images.html",
+                    "title": "srcset"
+                },
+                {
+                    "url": "./week03/bom.html",
+                    "title": "localStorage"
+                }
+			]
+		},
+        {
+            "week": "Week 4",
+            "links": [
+                {
+                    "url": "https://codepen.io/Godspower-Okonkwo/pen/PoxmJBr",
+                    "title": "Pseudo"
+                },
+                {
+                    "url": "./week04/images/combinators.jpg",
+                    "title": "Combinators"
+                },
+                {
+                    "url": "./week04/tablebuild.html",
+                    "title": "Tables"
+                },
+                {
+                    "url": "./week04/form/index.html",
+                    "title": "Forms" 
+                }
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": [
+                {
+                    "url": "https://codepen.io/Godspower-Okonkwo/pen/BaGmNVr",
+                    "title": "Pseudo"
+                },
+                {
+                    "url": "./week05/new-ward-members.json",
+                    "title": "json"
+                },
+                {
+                    "url": "./week05/prophets.html",
+                    "title": "Fetch"
+                },
+                {
+                    "url": "./week05/weather.html",
+                    "title": "WeatherAPI"
+                }
+            ]
+        }
+	]
+}
