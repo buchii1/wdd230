@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    text-decoration: underline overline;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+}
+
+#cards section {
+    margin: .5rem;
+    padding: .35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eee;
+    border: solid 1px #bbb;
+}
+
+section img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    margin-top: 2rem;
+    text-align: center;
+}
