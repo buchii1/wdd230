@@ -8,7 +8,6 @@ async function getLinks() {
 
 		if (response.ok) {
 			const data = await response.json();
-			console.log(data);
 			displayLinks(data.weeks);
 		} else {
 			throw Error(await response.text());
