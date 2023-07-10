@@ -16,17 +16,26 @@ const displayProphets = (prophets) => {
 	prophets.forEach((prophet) => {
 		const card = document.createElement("section");
 		const fullName = document.createElement("h2");
+		const birthDate = document.createElement("p");
+		const birthPlace = document.createElement("p");
 		const portrait = document.createElement("img");
 
 		fullName.innerHTML = `${prophet.name} ${prophet.lastname}`;
+        birthDate.innerHTML = `Date of Birth: ${prophet.birthdate}`;
+        birthPlace.innerHTML = `Place of Birth: ${prophet.birthplace}`;
 		portrait.setAttribute("src", prophet.imageurl);
-		portrait.setAttribute("alt", `Portrait of ${prophet.name} ${prophet.lastname}`);
-		portrait.setAttribute("loading", 'lazy');
-		portrait.setAttribute("width", '340');
-		portrait.setAttribute("height", '440');
+		portrait.setAttribute(
+			"alt",
+			`Portrait of ${prophet.name} ${prophet.lastname}`
+		);
+		portrait.setAttribute("loading", "lazy");
+		portrait.setAttribute("width", "340");
+		portrait.setAttribute("height", "440");
 
-        card.appendChild(fullName);
-        card.appendChild(portrait);
-        cards.appendChild(card);
+		card.appendChild(fullName);
+        card.appendChild(birthDate);
+        card.appendChild(birthPlace);
+		card.appendChild(portrait);
+		cards.appendChild(card);
 	});
 };
