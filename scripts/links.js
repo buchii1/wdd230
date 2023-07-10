@@ -19,13 +19,18 @@ async function getLinks() {
 }
 getLinks();
 
+const displayLinkItems = (links) => {
+	return links
+		.map((link) => `<a href="${link.url}">${link.title}</a>`)
+		.join(" | ");
+};
+
 const displayLinks = (weeks) => {
 	let html = "";
 	weeks.forEach((week) => {
-		const weekHTML = week.links
-			.map((link) => `<a href="${link.url}">${link.title}</a>`)
-			.join(" | ");
+		const weekHTML = displayLinkItems(week.links);
 		html += `<li>${week.week}: ${weekHTML}</li>`;
 	});
 	ul.innerHTML = html;
 };
+
