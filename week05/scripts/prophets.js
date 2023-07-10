@@ -17,10 +17,10 @@ const displayProphets = (prophets) => {
 		const card = document.createElement("section");
 		const fullName = document.createElement("h2");
 		const portrait = document.createElement("img");
-        
+
 		fullName.innerHTML = `${prophet.name} ${prophet.lastname}`;
 		portrait.setAttribute("src", prophet.imageurl);
-		portrait.setAttribute("alt", `Portrait of {$fullName}`);
+		portrait.setAttribute("alt", `Portrait of ${prophet.name} ${prophet.lastname}`);
 		portrait.setAttribute("loading", 'lazy');
 		portrait.setAttribute("width", '340');
 		portrait.setAttribute("height", '440');
