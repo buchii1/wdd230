@@ -1,0 +1,67 @@
+{
+	"members": [
+		{
+			"name": "Meyer",
+			"address": "Ciliau Aeron, Lampeter, Dyfed, UK",
+			"email": "xkuipers@meijer.com",
+			"phoneNumber": "01570 470625",
+			"websiteURL": "http://www.noise.sample.net/",
+			"image": "https://picsum.photos/200",
+			"memberLevel": "Gold Membership"
+		},
+		{
+			"name": "Davis Ltd",
+			"address": "319 Harwich Rd, Colchester, Essex, UK",
+			"email": "jevers@vandekooij.nl",
+			"phoneNumber": "01206 870108",
+			"websiteURL": "http://sample.edu/",
+			"image": "https://picsum.photos/200?grayscale",
+			"memberLevel": "NP Membership"
+		},
+		{
+			"name": "Lage",
+			"address": "69 High St, Codicote, Hertfordshire, UK",
+			"email": "info.i.drop.com",
+			"phoneNumber": "01438 820452",
+			"websiteURL": "https://www.approval.sample.com/",
+			"image": "https://picsum.photos/200",
+			"memberLevel": "Silver Membership"
+		},
+		{
+			"name": "Schinner Inc",
+			"address": "135 Halesowen Rd, Dudley, West Midlands, UK",
+			"email": "aerhout@jans.org",
+			"phoneNumber": "01384 253691",
+			"websiteURL": "https://umbrella.sample.edu/",
+			"image": "https://picsum.photos/200?grayscale",
+			"memberLevel": "Gold Membership"
+		},
+		{
+			"name": "Maggio Inc",
+			"address": "Ashby Rd, Melbourne, Derbyshire, UK",
+			"email": "hello@wordherd.io",
+			"phoneNumber": "01332 864331",
+			"websiteURL": "https://www.cherries.sample.com/",
+			"image": "https://picsum.photos/200",
+			"memberLevel": "Bronze Membership"
+		},
+		{
+			"name": "Simonis LLC",
+			"address": "Carleen, Helston, Crornwall, UK",
+			"email": "pafeva5286@meogl.com",
+			"phoneNumber": "01736 762220",
+			"websiteURL": "http://dinner.sample.org/",
+			"image": "https://picsum.photos/200?grayscale",
+			"memberLevel": "Silver Membership"
+		},
+		{
+			"name": "Wiegand-Hackett",
+			"address": "Babington, Frome, Somerset, UK",
+			"email": "galimovramil@qfavori.com",
+			"phoneNumber": "01373 812266",
+			"websiteURL": "http://reaction.sample.edu/",
+			"image": "https://picsum.photos/200",
+			"memberLevel": "Bronze Membership"
+		}
+	]
+}
