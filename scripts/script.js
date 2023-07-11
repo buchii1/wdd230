@@ -49,8 +49,7 @@ function visitorCount() {
 	if (totVisit > 0) {
 		displayTotVisit.textContent = totVisit;
 	} else {
-		displayTotVisit.textContent =
-			"First timer. Welcome! 🎉";
+		displayTotVisit.textContent = "First timer. Welcome! 🎉";
 	}
 
 	totVisit++;
