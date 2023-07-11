@@ -15,25 +15,25 @@
 			"email": "jevers@vandekooij.nl",
 			"phoneNumber": "01206 870108",
 			"websiteURL": "http://sample.edu/",
-			"image": "https://picsum.photos/200?grayscale",
+			"image": "https://picsum.photos/id/132/200?grayscale",
 			"memberLevel": "NP Membership"
 		},
 		{
 			"name": "Lage",
-			"address": "69 High St, Codicote, Hertfordshire, UK",
-			"email": "info.i.drop.com",
+			"address": "69 High St, Codi, Hertfordshire, UK",
+			"email": "info.i@drop.com",
 			"phoneNumber": "01438 820452",
 			"websiteURL": "https://www.approval.sample.com/",
-			"image": "https://picsum.photos/200",
+			"image": "https://picsum.photos/id/39/200",
 			"memberLevel": "Silver Membership"
 		},
 		{
 			"name": "Schinner Inc",
-			"address": "135 Halesowen Rd, Dudley, West Midlands, UK",
+			"address": "135 Halesowen Rd, Dudley, Midlands, UK",
 			"email": "aerhout@jans.org",
 			"phoneNumber": "01384 253691",
 			"websiteURL": "https://umbrella.sample.edu/",
-			"image": "https://picsum.photos/200?grayscale",
+			"image": "https://picsum.photos/id/54/200?grayscale",
 			"memberLevel": "Gold Membership"
 		},
 		{
@@ -42,7 +42,7 @@
 			"email": "hello@wordherd.io",
 			"phoneNumber": "01332 864331",
 			"websiteURL": "https://www.cherries.sample.com/",
-			"image": "https://picsum.photos/200",
+			"image": "https://picsum.photos/id/77/200",
 			"memberLevel": "Bronze Membership"
 		},
 		{
@@ -51,7 +51,7 @@
 			"email": "pafeva5286@meogl.com",
 			"phoneNumber": "01736 762220",
 			"websiteURL": "http://dinner.sample.org/",
-			"image": "https://picsum.photos/200?grayscale",
+			"image": "https://picsum.photos/id/203/200?grayscale",
 			"memberLevel": "Silver Membership"
 		},
 		{
@@ -60,8 +60,53 @@
 			"email": "galimovramil@qfavori.com",
 			"phoneNumber": "01373 812266",
 			"websiteURL": "http://reaction.sample.edu/",
-			"image": "https://picsum.photos/200",
+			"image": "https://picsum.photos/id/211/200",
 			"memberLevel": "Bronze Membership"
+		},
+		{
+			"name": "Makky Graphics",
+			"address": "31 Kwata Rd, Awka, Anambra, NG",
+			"email": "makkygraph@maki.com",
+			"phoneNumber": "0190 196826",
+			"websiteURL": "http://maki.com/",
+			"image": "https://picsum.photos/id/23/200",
+			"memberLevel": "Silver Membership"
+		},
+		{
+			"name": "Warner Family",
+			"address": "31 Egbengwu St, Amawbia, Akwa, NG",
+			"email": "gtueoke_32@grt.com",
+			"phoneNumber": "01313 832668",
+			"websiteURL": "http://sellor.sample.edu/",
+			"image": "https://picsum.photos/200",
+			"memberLevel": "NP Membership"
+		},
+		{
+			"name": "Docker Range",
+			"address": "Rollin, Salune, Sunnet, UK",
+			"email": "docker_r@teri.com",
+			"phoneNumber": "01453 113267",
+			"websiteURL": "http://flip-range.com/",
+			"image": "https://picsum.photos/id/26/200",
+			"memberLevel": "Gold Membership"
+		},
+		{
+			"name": "Creative Pen",
+			"address": "31 Ricks Str, Rexburg, Idaho, USA",
+			"email": "hello@creativepen.io",
+			"phoneNumber": "04825 431904",
+			"websiteURL": "http://creative-pen.io/",
+			"image": "https://picsum.photos/id/20/200",
+			"memberLevel": "Silver Membership"
+		},
+		{
+			"name": "Digit Hubb",
+			"address": "CBN Choos Estate, Wumba, FCT, NG",
+			"email": "info@digithub.com.ng",
+			"phoneNumber": "01287 721297",
+			"websiteURL": "http://digithub.com.ng/",
+			"image": "https://picsum.photos/id/5/200?grayscale",
+			"memberLevel": "Gold Membership"
 		}
 	]
 }
