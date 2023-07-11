@@ -31,20 +31,3 @@ const displayResults = (members) => {
 		display.innerHTML += section;
 	});
 };
-
-function showGrid() {
-	display.classList.remove("article-list");
-	display.classList.add("article-grid");
-	listButton.classList.remove("directory-active");
-	gridButton.classList.add("directory-active");
-}
-
-function showList() {
-	display.classList.remove("article-grid");
-	display.classList.add("article-list");
-	gridButton.classList.remove("directory-active");
-	listButton.classList.add("directory-active");
-}
-
-gridButton.addEventListener("click", showGrid);
-listButton.addEventListener("click", showList);
