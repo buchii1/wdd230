@@ -132,6 +132,8 @@ nav {
 
 #cta-container {
 	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 10px;
 }
 
 #hero-msg h1 {
@@ -348,10 +350,17 @@ form input.submitBtn {
 	cursor: pointer;
 	color: #fff;
 	border-radius: 1rem;
+	border: 2px solid transparent;
 	padding: 0.75rem 1.5rem;
 	margin: 0 0 2rem 2%;
 	width: 96%;
 	max-width: 20rem;
+}
+
+form input.submitBtn:hover {
+	background-color: #fff;
+	color: #000;
+	border-color: hsl(235, 66%, 25%);
 }
 
 form label.form-top input:required {
@@ -367,4 +376,90 @@ form label.form-top input:required:valid {
 }
 
 /*--------- DIRECTORY PAGE ----------*/
+.directory-menu {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
 
+.directory-menu button {
+	padding: 0.6rem 1.5rem;
+	cursor: pointer;
+	border: 2px solid hsl(235, 66%, 25%);
+	border-radius: 4px;
+	color: #000;
+	background-color: #fff;
+	margin-bottom: 20px;
+	margin-top: -20px;
+}
+
+.directory-menu .directory-active {
+	background-color: hsl(235, 66%, 25%);
+	color: #fff;
+}
+
+article section h2 {
+	display: block;
+	color: hsl(235, 66%, 25%);
+}
+
+.article-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 15px;
+	text-align: center;
+}
+
+.article-grid section {
+	box-shadow: 0px 2px 10px 6px rgba(220, 220, 220, 0.9);
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.article-grid section img {
+	border-radius: 5px;
+}
+
+section a {
+	color: hsl(235, 66%, 25%);
+}
+
+article section a:visited,
+article section a:hover {
+	color: maroon;
+}
+
+section address {
+	padding-top: 0;
+}
+
+.article-list {
+	display: block;
+}
+
+.article-list section {
+	padding: 1rem;
+}
+
+article section h2 {
+	font-size: 1.2rem;
+	margin-bottom: 1px;
+}
+
+.article-list section h2 {
+	color: #000;
+}
+
+.article-list section img {
+	display: none;
+}
+
+.article-list section:nth-child(odd) {
+	background-color: #eee;
+	border-left: 6px solid hsl(235, 66%, 25%);
+}
+
+::selection {
+	background-color: #000;
+	color: #fff;
+}

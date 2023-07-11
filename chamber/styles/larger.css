@@ -83,12 +83,8 @@
 		font-size: 2rem;
 	}
 
-	#cta-container {
-		text-align: center;
-	}
-
 	#cta-button {
-		padding: 1.2rem 2rem;
+		padding: 0.8rem 2rem;
 		font-size: 1.2rem;
 		font-weight: 700;
 	}
@@ -192,5 +188,16 @@
 
 	#thanks h2 {
 		display: block;
+	}
+
+	.article-list {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.article-list section {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		column-gap: 20px;
 	}
 }
