@@ -40,7 +40,11 @@
         </nav>
     </header>
     <main id="directory">
-
+        <div class="directory-menu">
+            <button id="grid" class="directory-active">⏹️ Grid</button>
+            <button id="list">📄 List</button>
+        </div>
+        <article class="article-grid"></article>
     </main>
     <footer>
         <div id="footer-grid">
@@ -57,12 +61,12 @@
                 <a href="mailto:hello@awka-chamber.com">hello@awka-chamber.com</a>
                 <p>📍 Location Map</p>
             </div>
-            <!-- <div id="map">
+            <div id="map">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!4v1687209232088!6m8!1m7!1saEnnyfD_W7msyqX7xy4tIQ!2m2!1d6.207853355099687!2d7.042608515938644!3f130.81625363277143!4f-12.841365411402194!5f0.7820865974627469"
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" title="local map"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div> -->
+            </div>
             <p>WDD 230 - Web Frontend Development Project</p>
         </div>
         <div id="footer-copy">
@@ -71,7 +75,9 @@
             </small>
         </div>
     </footer>
+
     <script src="scripts/script.js"></script>
+    <script src="scripts/directory.js"></script>
 </body>
 
 </html>
