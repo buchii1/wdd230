@@ -182,6 +182,85 @@ main {
 	padding: 10px 10px;
 }
 
+.weather-container {
+	display: flex;
+	/* flex-direction: column; */
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+}
+
+.weather-container p {
+	margin: 0;
+}
+
+.weather-humidity {
+	text-align: center;
+	/* margin-top: -10px; */
+}
+
+#current-weather img {
+	width: 100%;
+	height: auto;
+}
+
+#forecast {
+	margin-top: -10px;
+}
+
+.member-card div:first-child {
+	width: 200px;
+	margin: 0 auto;
+}
+
+.member-card div h4 {
+	text-align: center;
+}
+
+.member-card div:last-child {
+	padding-left: 10px;
+}
+
+.forecast-item {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	margin-top: 20px;
+	flex-basis: calc(33.33% - 10px);
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.spotlight img {
+	width: 100%;
+	height: 100%;
+}
+
+.banner {y
+	padding: 10px;
+	text-align: center;
+}
+
+.banner-content {
+	padding-top: 20px;
+	display: block;
+	justify-content: center;
+	align-items: center;
+}
+
+.close-banner {
+	background-color: hsl(235, 66%, 25%);
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+	margin-top: 20px;
+	padding: 10px 15px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
 /*---------- FOOTER SECTION ----------*/
 #footer-grid {
 	padding: 10px 20px;

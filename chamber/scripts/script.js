@@ -16,6 +16,24 @@ function menuButton() {
 }
 menuButton();
 
+function wayFinding()  {
+	// Get the current page URL
+	const currentPageUrl = window.location.href;
+
+	// Get all navigation links
+	const navLinks = document.querySelectorAll(".nav-ul li a");
+
+	// Iterate over each link and check if its href matches the current page URL
+	for (const link of navLinks) {
+		if (link.href === currentPageUrl) {
+			link.classList.add("active");
+		} else {
+			link.classList.remove("active");
+		}
+	}
+}
+wayFinding()
+
 function footerDetails() {
 	// Get Current Year
 	const year = new Date().getFullYear();
